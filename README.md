@@ -47,7 +47,7 @@ If the previous command ran successfully you should now be able to hit the follo
 ```yaml
 ...
 Events:
-    HelloWorld:
+    ImdsServer:
         Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
         Properties:
             Path: /hello
