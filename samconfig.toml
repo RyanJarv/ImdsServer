@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "ImdsServer"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1lc3jdp60ay04"
+s3_prefix = "ImdsServer"
+region = "us-east-2"
+capabilities = "CAPABILITY_IAM"
